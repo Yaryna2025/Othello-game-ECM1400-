@@ -1,5 +1,0 @@
-SAVE_FILE = "finished_product.json"
-DARK = "Dark "
-LIGHT = "Light"
-NONE = "None "
-SECRET_KEY = "secret_key"
