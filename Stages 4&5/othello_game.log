@@ -1,0 +1,280 @@
+2025-12-07 20:47:38,944 - INFO - Initialise board with four pieces in the initial positions
+2025-12-07 20:47:38,974 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-07 20:47:38,974 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-07 20:47:43,500 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:43] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:43,550 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:43] "GET /static/style.css HTTP/1.1" 200 -
+2025-12-07 20:47:44,558 - INFO - Human player places the dark piece at (5, 4)
+2025-12-07 20:47:44,558 - INFO - Now it is a Light's turn
+2025-12-07 20:47:44,558 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:44] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:47:44,560 - INFO - AI opponent places the light piece at (3, 5)
+2025-12-07 20:47:44,561 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:44] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:44,571 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:47:45,898 - INFO - Human player places the dark piece at (2, 4)
+2025-12-07 20:47:45,899 - INFO - Now it is a Light's turn
+2025-12-07 20:47:45,900 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:45] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:47:45,905 - INFO - AI opponent places the light piece at (1, 3)
+2025-12-07 20:47:45,907 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:45] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:45,919 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:47:48,342 - INFO - Human player places the dark piece at (2, 3)
+2025-12-07 20:47:48,342 - INFO - Now it is a Light's turn
+2025-12-07 20:47:48,343 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:48] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:47:48,346 - INFO - AI opponent places the light piece at (4, 2)
+2025-12-07 20:47:48,347 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:48] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:48,356 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:47:50,649 - INFO - Human player places the dark piece at (2, 6)
+2025-12-07 20:47:50,650 - INFO - Now it is a Light's turn
+2025-12-07 20:47:50,650 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:50] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:47:50,653 - INFO - AI opponent places the light piece at (5, 5)
+2025-12-07 20:47:50,654 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:50] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:50,666 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:47:53,690 - INFO - Human player places the dark piece at (0, 2)
+2025-12-07 20:47:53,690 - INFO - Now it is a Light's turn
+2025-12-07 20:47:53,690 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:53] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:47:53,693 - INFO - AI opponent places the light piece at (6, 4)
+2025-12-07 20:47:53,695 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:53] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:53,705 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:47:55,555 - INFO - Human player places the dark piece at (7, 4)
+2025-12-07 20:47:55,555 - INFO - Now it is a Light's turn
+2025-12-07 20:47:55,555 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:55] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:47:55,558 - INFO - AI opponent places the light piece at (0, 3)
+2025-12-07 20:47:55,560 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:55] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:55,570 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:47:58,347 - INFO - Human player places the dark piece at (4, 6)
+2025-12-07 20:47:58,347 - INFO - Now it is a Light's turn
+2025-12-07 20:47:58,347 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:58] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:47:58,350 - INFO - AI opponent places the light piece at (6, 6)
+2025-12-07 20:47:58,350 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:58] "GET / HTTP/1.1" 200 -
+2025-12-07 20:47:58,358 - INFO - 127.0.0.1 - - [07/Dec/2025 20:47:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:02,771 - INFO - Human player places the dark piece at (4, 1)
+2025-12-07 20:48:02,772 - INFO - Now it is a Light's turn
+2025-12-07 20:48:02,772 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:02] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:02,775 - INFO - AI opponent places the light piece at (1, 7)
+2025-12-07 20:48:02,776 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:02] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:02,789 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:05,071 - INFO - Saved successfully to finished_product.json
+2025-12-07 20:48:05,075 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:05] "[32mGET /save_game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:05,080 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:05] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:05,093 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:12,616 - INFO - Human player places the dark piece at (2, 2)
+2025-12-07 20:48:12,617 - INFO - Now it is a Light's turn
+2025-12-07 20:48:12,617 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:12] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:12,620 - INFO - AI opponent places the light piece at (5, 1)
+2025-12-07 20:48:12,621 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:12] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:12,635 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:14,976 - INFO - Loaded successfully from finished_product.json
+2025-12-07 20:48:14,977 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:14] "[32mGET /load_game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:14,982 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:14] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:14,995 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:16,776 - INFO - Human player places the dark piece at (2, 2)
+2025-12-07 20:48:16,776 - INFO - Now it is a Light's turn
+2025-12-07 20:48:16,777 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:16] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:16,780 - INFO - AI opponent places the light piece at (5, 1)
+2025-12-07 20:48:16,782 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:16] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:16,792 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:17,516 - INFO - Human player places the dark piece at (3, 2)
+2025-12-07 20:48:17,516 - INFO - Now it is a Light's turn
+2025-12-07 20:48:17,517 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:17] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:17,520 - INFO - AI opponent places the light piece at (3, 7)
+2025-12-07 20:48:17,521 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:17] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:17,534 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:18,159 - WARNING - Illegal move attempted at cell: (3, 1)
+2025-12-07 20:48:18,161 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:18] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:18,165 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:18] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:18,179 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:18,744 - WARNING - Illegal move attempted at cell: (2, 1)
+2025-12-07 20:48:18,745 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:18] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:18,748 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:18] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:18,761 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:19,269 - WARNING - Illegal move attempted at cell: (1, 2)
+2025-12-07 20:48:19,270 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:19] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:19,274 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:19] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:19,286 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:19,924 - WARNING - Illegal move attempted at cell: (2, 5)
+2025-12-07 20:48:19,925 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:19] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:19,930 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:19] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:19,946 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:22,137 - WARNING - Illegal move attempted at cell: (5, 3)
+2025-12-07 20:48:22,138 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:22] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:22,142 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:22] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:22,164 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:23,088 - INFO - Human player places the dark piece at (5, 2)
+2025-12-07 20:48:23,089 - INFO - Now it is a Light's turn
+2025-12-07 20:48:23,089 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:23] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:23,092 - INFO - AI opponent places the light piece at (1, 1)
+2025-12-07 20:48:23,093 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:23] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:23,101 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:24,483 - INFO - Human player places the dark piece at (1, 2)
+2025-12-07 20:48:24,484 - INFO - Now it is a Light's turn
+2025-12-07 20:48:24,485 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:24] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:24,488 - INFO - AI opponent places the light piece at (2, 1)
+2025-12-07 20:48:24,489 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:24] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:24,504 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:26,384 - WARNING - Illegal move attempted at cell: (3, 1)
+2025-12-07 20:48:26,385 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:26] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:26,391 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:26] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:26,401 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:27,485 - INFO - Human player places the dark piece at (3, 6)
+2025-12-07 20:48:27,486 - INFO - Now it is a Light's turn
+2025-12-07 20:48:27,486 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:27] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:27,489 - INFO - AI opponent places the light piece at (1, 5)
+2025-12-07 20:48:27,491 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:27] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:27,507 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:28,407 - INFO - Human player places the dark piece at (1, 6)
+2025-12-07 20:48:28,408 - INFO - Now it is a Light's turn
+2025-12-07 20:48:28,408 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:28] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:28,411 - INFO - AI opponent places the light piece at (4, 5)
+2025-12-07 20:48:28,412 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:28] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:28,423 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:31,407 - INFO - Human player places the dark piece at (6, 5)
+2025-12-07 20:48:31,407 - INFO - Now it is a Light's turn
+2025-12-07 20:48:31,408 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:31] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:31,410 - INFO - AI opponent places the light piece at (5, 6)
+2025-12-07 20:48:31,412 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:31] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:31,420 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:32,764 - INFO - Human player places the dark piece at (6, 7)
+2025-12-07 20:48:32,764 - INFO - Now it is a Light's turn
+2025-12-07 20:48:32,765 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:32] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:32,768 - INFO - AI opponent places the light piece at (6, 1)
+2025-12-07 20:48:32,770 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:32] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:32,788 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:33,909 - INFO - Human player places the dark piece at (5, 7)
+2025-12-07 20:48:33,910 - INFO - Now it is a Light's turn
+2025-12-07 20:48:33,910 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:33] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:33,913 - INFO - AI opponent places the light piece at (7, 6)
+2025-12-07 20:48:33,913 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:33] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:33,927 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:35,606 - WARNING - Illegal move attempted at cell: (4, 7)
+2025-12-07 20:48:35,607 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:35] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:35,610 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:35] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:35,618 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:38,180 - INFO - Human player places the dark piece at (6, 3)
+2025-12-07 20:48:38,180 - INFO - Now it is a Light's turn
+2025-12-07 20:48:38,180 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:38] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:38,183 - INFO - AI opponent places the light piece at (4, 7)
+2025-12-07 20:48:38,183 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:38] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:38,199 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:42,333 - INFO - Human player places the dark piece at (2, 7)
+2025-12-07 20:48:42,333 - INFO - Now it is a Light's turn
+2025-12-07 20:48:42,334 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:42] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:42,338 - INFO - AI opponent places the light piece at (3, 1)
+2025-12-07 20:48:42,339 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:42] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:42,351 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:44,480 - INFO - Human player places the dark piece at (2, 5)
+2025-12-07 20:48:44,480 - INFO - Now it is a Light's turn
+2025-12-07 20:48:44,482 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:44] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:44,497 - INFO - AI opponent places the light piece at (0, 6)
+2025-12-07 20:48:44,499 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:44] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:44,513 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:45,802 - INFO - Human player places the dark piece at (1, 4)
+2025-12-07 20:48:45,802 - INFO - Now it is a Light's turn
+2025-12-07 20:48:45,803 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:45] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:45,805 - INFO - AI opponent places the light piece at (7, 7)
+2025-12-07 20:48:45,806 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:45] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:45,816 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:47,318 - INFO - Human player places the dark piece at (2, 0)
+2025-12-07 20:48:47,318 - INFO - Now it is a Light's turn
+2025-12-07 20:48:47,318 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:47] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:47,320 - INFO - AI opponent places the light piece at (7, 2)
+2025-12-07 20:48:47,321 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:47] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:47,329 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:47,926 - INFO - Human player places the dark piece at (3, 0)
+2025-12-07 20:48:47,926 - INFO - Now it is a Light's turn
+2025-12-07 20:48:47,926 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:47] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:47,928 - INFO - AI opponent places the light piece at (1, 0)
+2025-12-07 20:48:47,930 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:47] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:47,938 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:48,678 - WARNING - Illegal move attempted at cell: (4, 0)
+2025-12-07 20:48:48,679 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:48] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:48,683 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:48] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:48,693 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:49,971 - INFO - Human player places the dark piece at (0, 0)
+2025-12-07 20:48:49,972 - INFO - Now it is a Light's turn
+2025-12-07 20:48:49,973 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:49] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:49,976 - INFO - AI opponent places the light piece at (4, 0)
+2025-12-07 20:48:49,977 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:49] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:49,989 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:51,063 - INFO - Human player places the dark piece at (0, 1)
+2025-12-07 20:48:51,063 - INFO - Now it is a Light's turn
+2025-12-07 20:48:51,064 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:51] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:51,066 - INFO - AI opponent places the light piece at (7, 3)
+2025-12-07 20:48:51,067 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:51] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:51,077 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:52,390 - INFO - Human player places the dark piece at (0, 4)
+2025-12-07 20:48:52,390 - INFO - Now it is a Light's turn
+2025-12-07 20:48:52,392 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:52] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:52,394 - INFO - AI opponent places the light piece at (0, 5)
+2025-12-07 20:48:52,395 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:52] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:52,409 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:54,296 - INFO - Human player places the dark piece at (0, 7)
+2025-12-07 20:48:54,296 - INFO - Now it is a Light's turn
+2025-12-07 20:48:54,297 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:54] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:54,300 - INFO - AI opponent places the light piece at (7, 5)
+2025-12-07 20:48:54,300 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:54] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:54,309 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:55,467 - INFO - Human player places the dark piece at (5, 0)
+2025-12-07 20:48:55,468 - INFO - Now it is a Light's turn
+2025-12-07 20:48:55,468 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:55] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:55,471 - INFO - AI opponent places the light piece at (6, 2)
+2025-12-07 20:48:55,472 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:55] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:55,482 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:56,950 - INFO - Human player places the dark piece at (5, 3)
+2025-12-07 20:48:56,951 - INFO - Now it is a Light's turn
+2025-12-07 20:48:56,952 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:56] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:56,955 - INFO - AI opponent places the light piece at (6, 0)
+2025-12-07 20:48:56,957 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:56] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:56,969 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:48:58,577 - INFO - Human player places the dark piece at (7, 0)
+2025-12-07 20:48:58,577 - INFO - Now it is a Light's turn
+2025-12-07 20:48:58,578 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:58] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:48:58,580 - INFO - AI opponent places the light piece at (7, 1)
+2025-12-07 20:48:58,581 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:58] "GET / HTTP/1.1" 200 -
+2025-12-07 20:48:58,592 - INFO - 127.0.0.1 - - [07/Dec/2025 20:48:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:49:02,331 - INFO - Saved successfully to finished_product.json
+2025-12-07 20:49:02,336 - INFO - 127.0.0.1 - - [07/Dec/2025 20:49:02] "[32mGET /save_game HTTP/1.1[0m" 302 -
+2025-12-07 20:49:02,340 - INFO - 127.0.0.1 - - [07/Dec/2025 20:49:02] "GET / HTTP/1.1" 200 -
+2025-12-07 20:49:02,357 - INFO - 127.0.0.1 - - [07/Dec/2025 20:49:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:04,719 - INFO - Initialise board with four pieces in the initial positions
+2025-12-07 20:50:04,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-07 20:50:04,751 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-07 20:50:06,534 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:06] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:06,544 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:07,550 - INFO - Human player places the dark piece at (5, 4)
+2025-12-07 20:50:07,550 - INFO - Now it is a Light's turn
+2025-12-07 20:50:07,550 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:07] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:07,552 - INFO - AI opponent places the light piece at (5, 5)
+2025-12-07 20:50:07,553 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:07] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:07,562 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:08,287 - WARNING - Illegal move attempted at cell: (3, 5)
+2025-12-07 20:50:08,289 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:08] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:08,292 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:08] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:08,302 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:08,857 - WARNING - Illegal move attempted at cell: (5, 3)
+2025-12-07 20:50:08,858 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:08] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:08,860 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:08] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:08,871 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:09,490 - WARNING - Illegal move attempted at cell: (5, 3)
+2025-12-07 20:50:09,492 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:09] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:09,500 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:09] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:09,512 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:11,428 - INFO - Human player places the dark piece at (5, 6)
+2025-12-07 20:50:11,429 - INFO - Now it is a Light's turn
+2025-12-07 20:50:11,430 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:11] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:11,433 - INFO - AI opponent places the light piece at (6, 6)
+2025-12-07 20:50:11,434 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:11] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:11,453 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:14,768 - INFO - Saved successfully to finished_product.json
+2025-12-07 20:50:14,771 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:14] "[32mGET /save_game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:14,776 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:14] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:14,786 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:18,774 - INFO - Human player places the dark piece at (7, 6)
+2025-12-07 20:50:18,774 - INFO - Now it is a Light's turn
+2025-12-07 20:50:18,774 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:18] "[32mPOST /game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:18,777 - INFO - AI opponent places the light piece at (3, 5)
+2025-12-07 20:50:18,778 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:18] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:18,790 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 20:50:20,430 - INFO - Loaded successfully from finished_product.json
+2025-12-07 20:50:20,431 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:20] "[32mGET /load_game HTTP/1.1[0m" 302 -
+2025-12-07 20:50:20,436 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:20] "GET / HTTP/1.1" 200 -
+2025-12-07 20:50:20,448 - INFO - 127.0.0.1 - - [07/Dec/2025 20:50:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
