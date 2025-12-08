@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Game Othello</title>
+  <link rel="stylesheet" href ="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+  <h1>Game Othello</h1>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul class="flashes">
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+  {% endwith %}
+
+ {% if hello_message %}
+    <h2>{{ hello_message }}</h2>
+  {% endif %}
+
+  {% if game_over %}
+    <h2>{{ congratulation_message }}</h2>
+  {% endif %}
+
+  <h3> Turn of {{turn_player}} </h3>
+  <h4>Move counter: {{ move_counter }}</h4>
+  <h4> Amount of light pieces: {{ amount_of_light }} , Amount of dark pieces: {{ amount_of_dark }}</h4>
+
+
+  <div class="board">
+    {% for i in range(board|length) %}
+      {% for j in range(board|length) %}
+          <form method = "POST" action="{{url_for('game')}}">
+            <input type="hidden" name="row" value="{{i}}">
+            <input type="hidden" name="column" value="{{j}}">
+
+            <button class="square">
+              {% if board[i][j] == 'Dark ' %}
+                  <div class="piece dark"></div>
+              {% elif board[i][j] == 'Light' %}
+                  <div class="piece light"></div>
+              {% endif %}
+            </button>
+
+          </form>
+
+      {% endfor %}
+  {% endfor %}
+  </div>
+
+  <div class="save_login">
+    <a href="{{url_for('save_game')}}" class="button">Save the game</a>
+    <a href="{{url_for('load_game')}}" class="button">Load the game</a>
+  </div>
+</body>
+</html>

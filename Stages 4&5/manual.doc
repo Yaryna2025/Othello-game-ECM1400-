@@ -1,17 +1,22 @@
 User Manual for Othello/Reversi Game
 
+
 1. Introduction
 
-This is a web-based version of the Othello game. In this game the human (us) play with dark pieces, meanwhile AI, our opponent, plays with lights. The project is implemented using Python, Flask and JSON for game state storage. 
-This manuel.doc explains how to install important elements, run the application, and play Othello Game. 
+This is a web-based version of the Othello game. In this game the human plays with dark pieces, meanwhile AI, our opponent, plays with light pieces. The project is implemented using current versions Python, Flask and JSON for game state storage. 
+
+This manuel.doc explains how to install important elements, run the application, and play the Othello game. 
+
 Please go to the READ.md file, where flowcharts, technical documentation and the detailed descriptions of the code modules are described.
 
 
 2. Requirements for the game system
 
-Python 3.8 (or any other later version)
-A web browser such as Chrome or Safari
-Flask library
+	Python 3.13.5 (or any other later version)
+
+	A web browser such as Chrome or Safari
+
+	Flask 3.1.0 library
 
 
 3. Instruction for installation
@@ -22,10 +27,8 @@ In this project directory, open the terminal.
 
 Install the required libraries using pip. For example: pip install Flask.
 
-The Othello game project should include the folders:	
-
-	img_flowcharts (folder with flowcharts images of the loops used in the Python code)
-
+The Othello game project should include the folders:
+	
 	static/style.css (for web interface)
 
 	templates/index.html (for web interface)
@@ -36,48 +39,50 @@ The project of Othello game should include the files:
 
 	config.py (contains constants and settings used by the game, like DARK, LIGHT, NONE, 		SAVE_FILE, and SECRET_KEY. This makes the game easy to reuse and adjust.)
 
-	othello_game.log (automatically created log file that records human moves, AI opponent 		moves, illegal move attempts, turn changes, and game save/load events. You can review 		this file to track game progress or debug issues.)
+	othello_game.log ( automatically created log file that records human moves, AI opponent 	moves, illegal move attempts, turn changes, and game save/load events. You can review 		this file to track game progress or debug issues.)
 
-	finished_product.json (it is used to save and load game progress)
+	finished_product.json (used to save and load game progress)
 
 	README.md (technical documentation)
 
 	manual.doc (detailed user instructions)
 
+	LICENSE (includes the MIT License for this project)
+
 
 4. How to run the game
 
-In the folder open the terminal.
+	In the folder open the terminal.
 
-By writing python flask_ai_opponent.py, start the Flask server.
+	By writing python flask_ai_opponent.py, start the Flask server.
 
-The game creates othello_game.log in the project folder, recording moves, illegal attempts, turn changes, and save or load events for tracking or debugging.
+	The game creates othello_game.log in the project folder, recording moves, illegal 		attempts, turn changes, and save or load events for tracking or debugging.
 
-You will see the URL (in most cases it is highlighted by blue).
+	You will see the URL (in most cases it is highlighted by blue).
 
-Open this URL in a web browser, where you will see the Othello game.
+	Open this URL in a web browser, where you will see the Othello game.
 
 
 5. How to play instruction
 
-Goal: the player needs to have more pieces of their colour than the AI opponent when the game finishes. The game finishes when the board is full or when both players have no legal moves.
+	Goal: the player needs to have more pieces of their colour than the AI opponent when the 	game finishes. The game finishes when the board is full or when both players have no 		legal moves.
 
-Your role as a player: to give you an advantage, you are playing with dark pieces which start first in the game.
+	Your role as a player: to give you an advantage, you are playing with dark pieces which 	start first in the game.
 
-Make your move; click on the square where you want to place your piece; you can place your piece only when it is legal (frames one or more of the opposition’s pieces in between another of your token), otherwise if move is illegal, it will not let you move to that square and will prompt a message and the turn will go to AI opponent.
+	Make your move: click on the square where you want to place your piece; you can place 		your piece only when it is legal (frames one or more of the opposition’s pieces in 		between another of your token), otherwise if move is illegal, it will not let you move 		to that square and will prompt a message and the turn will go to AI opponent.
 
-AI opponent: AI opponent plays with light pieces and after the player's move it will choose moves randomly from all available legal options. If the AI has no legal moves, the turn will go back to the player. Whenever you make a move, illegal moves, AI opponent moves, and the current player turn are recorded in othello_game.log.
+	AI opponent: AI opponent plays with light pieces and after the player's move it will 		choose moves randomly from all available legal options. If the AI has no legal moves, 		the turn will go back to the player. Whenever you make a move, illegal moves, AI 		opponent moves, and the current player turn are recorded in othello_game.log.
 
-Move Rules: a move must frame at least one opponent piece, this is called outflanking. All outflanked pieces are flipped to your color automatically.
+	Move Rules: a move must frame at least one opponent piece, this is called outflanking. 		All outflanked pieces are flipped to your colour automatically.
 
-Game Ends: the game ends when the board is full or there are no possible legal moves for both players. The player with the most pieces wins, after the win the message is displayed, which tells the winner or if there is a tie.
+	Game Ends: the game ends when the board is full or there are no possible legal moves for 	both players. The player with the most pieces wins, after the win the message is 		displayed, which tells the winner or if there is a tie.
 
 
 6. Saving and Loading Games
 
-Save Game: to save the game, click on the save button below the board to store the current game state in finished_product.json. This will save the current display of board, turn, and remaining moves. 
-
-Load Game: to load the game, click on the load button also below the board to restore a previously saved game. The game will continue from the last saved state, but if no saved game exists, a message will be displayed. Game saves and loads are also recorded in othello_game.log, so if a load fails because the JSON file is missing, it is logged as an error.
+	Save game: to save the game, click on the save button below the board to store the 		current game state in finished_product.json. This will save the current display of 		board, turn, and remaining moves.
+ 
+	Load game: to load the game, click on the load button also below the board to restore a 	previously saved game. The game will continue from the last saved state, but if no saved 	game exists, a message will be displayed. Game saves and loads are also recorded in 		othello_game.log, so if a load fails because the JSON file is missing, it is logged as 		an error.
 
 
 7. The use of the Command Line and API
@@ -85,139 +90,139 @@ Load Game: to load the game, click on the load button also below the board to re
 These functions and routes allow a developer or user to create a different GUI using the existing game backend:
 The game logic is separated into Python these functions:
 
-initialise_board()
-normalise_board(board)
-in_range(r, c)
-move_is_legal(player, position, board)
-moves_are_legal(player, board)
-make_move(player, position, board)
-count_pieces(board)
-ai_turn(board)
+	initialise_board()
+	normalise_board(board)
+	in_range(r, c)
+	move_is_legal(player, position, board)
+	moves_are_legal(player, board)
+	make_move(player, position, board)
+	count_pieces(board)
+	ai_turn(board)
 
 Flask routes:
-
-/ – Home page, which shows the board and the game status.
-/game – Handles human move submission (POST).
-/save_game – Saves the current game to a JSON file.
-/load_game – Loads a previously saved game from a JSON file.
+	/ – Home page, which shows the board and the game status.
+	/game – Handles human move submission (POST).
+	/save_game – Saves the current game to a JSON file.
+	/load_game – Loads a previously saved game from a JSON file.
 
 Logging: All moves, illegal attempts, turn changes, and save or load events are recorded in the file othello_game.log and in the folder automatically. This file can be used to debug, track game progress, or integrate with other tools. 
 The functions are available for developers to create new GUIs, AI bots, or automated tests.
 
 
 8. The web interface of the game
-
-Board display: Shows an 8×8 board with pieces.
-Current turn: Displays which player’s turn it is.
-Move counter: Tracks remaining moves.
-Flash messages: Inform you about illegal moves, AI moves, and game status.
-Save and load buttons: Allow you to save or continue a game.
+	Board display: Shows an 8×8 board with pieces.
+	Current turn: Displays which player’s turn it is.
+	Move counter: Tracks remaining moves.
+	Flash messages: Inform you about illegal moves, AI moves, and game status.
+	Save and load buttons: Allow you to save or continue a game.
 
 
 9. Author and Version Information
 
-Author: Yaryna Matselyukh
+	Author: Yaryna Matselyukh
 
-Project: Othello/Reversi Game
+	Project: Othello/Reversi Game
 
-License: MIT License 
+	License: MIT License (For full license terms, see the LICENSE file included in this 		project)
 
-Version: 1.0
+	Version: 1.0
 
-Contact / Repository:
+	Contact / Repository: https://github.com/Yaryna2025/Othello-game-ECM1400.git
 
 
-10. Testing and Evaluation. Manual Testing (Stage 5)
+10. Manual Testing (Stage 5)
 10.1 Test Cases
 
 Board initialisation
 
-Step: Open game in browser.
-Expected result: 8×8 board displayed, 4 starting pieces in centre.
-Actual result: Board displayed correctly with 4 pieces.
-Pass or Fail: Pass.
+	Step: Open game in browser.
+	Expected result: 8×8 board displayed, 4 starting pieces in centre.
+	Actual result: Board displayed correctly with 4 pieces.
+	Pass or Fail: Pass.
 
 Normalise board
 
-Steps: Check all board cells.
-Expected result: All cells have constants: DARK, LIGHT, or NONE.
-Actual result: All cells normalised correctly.
-Pass or Fail:  Pass.
+	Steps: Check all board cells.
+	Expected result: All cells have constants: DARK, LIGHT, or NONE.
+	Actual result: All cells normalised correctly.
+	Pass or Fail:  Pass.
+
 Legal move
-Steps: Place your dark piece on a legal square that flips the opponent piece(s).
-Expected result: Opponent piece(s) flipped to DARK.
-Actual result: Piece(s) flipped correctly.
-Pass or Fail: Pass.
+
+	Steps: Place your dark piece on a legal square that flips the opponent piece(s).
+	Expected result: Opponent piece(s) flipped to the dark piece colour.
+	Actual result: Piece(s) flipped correctly.
+	Pass or Fail: Pass.
 
 Illegal move
 
-Steps: Place your dark piece at a square with no flips, which is illegal. 
-Expected result: Error message shown; move rejected.
-Actual result: Error message shown (move is illegal), move rejected.
-Pass or Fail: Pass.
+	Steps: Place your dark piece at a square with no flips, which is illegal. 
+	Expected result: Error message shown; move rejected.
+	Actual result: Error message shown (move is illegal), move rejected.
+	Pass or Fail: Pass.
 
 AI opponent move
 
-Steps: After the player places a dark piece.
-Expected result: AI opponent, which plays with light pieces, chooses a legal move randomly.
-Actual result: AI opponent moved to valid square.
-Pass or Fail:  Pass.
+	Steps: After the player places a dark piece.
+	Expected result: AI opponent, which plays with light pieces, chooses a legal move 		randomly.
+	Actual result: AI opponent moved to valid square.
+	Pass or Fail:  Pass.
 
 Move counter
 
-Steps: Make a move.
-Expected result: Move counter decreases by 1.
-Actual result: Move counter decreased correctly.
-Pass or Fail: Pass.
+	Steps: Make a move.
+	Expected result: Move counter decreases by 1.
+	Actual result: Move counter decreased correctly.
+	Pass or Fail: Pass.
 
 Game over (when board is full)
 
-Steps: Fill the board completely with pieces.
-Expected result: The game determines the winner correctly or declares a tie; a message is           shown.
-Actual result: Winner or tie message is displayed correctly.
-Pass or Fail: Pass.
+	Steps: Fill the board completely with pieces.
+	Expected result: The game determines the winner correctly or declares a tie; a message 		is shown.
+	Actual result: Winner or tie message is displayed correctly.
+	Pass or Fail: Pass.
 
 Game over (when both players have no legal moves)
 
-Steps: Leave no legal moves for either player.
-Expected result: Game ends, tie or winner declared.
-Actual result: Game over message shown.
-Pass or Fail: Pass.
+	Steps: Leave no legal moves for either player.
+	Expected result: Game ends, tie or winner declared.
+	Actual result: Game over message shown.
+	Pass or Fail: Pass.
 
 Save game
 
-Steps: Click save button.
-Expected result: Game states that it is successfully saved.
-Actual result: File created and data correct.
-Pass or Fail: Pass.
+	Steps: Click save button.
+	Expected result: Game states that it is successfully saved.
+	Actual result: File created and data correct.
+	Pass or Fail: Pass.
 
 Load game
 
-Steps: Click the load button.
-Expected result: Previously saved game restored.
-Actual result: Board and move counter restored correctly.
-Pass or Fail: Pass.
+	Steps: Click the load button.
+	Expected result: Previously saved game restored.
+	Actual result: Board and move counter restored correctly.
+	Pass or Fail: Pass.
 
 Invalid load
 
-Steps: Delete JSON file and click on load button.
-Expected result: Error message displayed, but game creates a new save file or continues without crashing.
-Actual result: Correct error message shown, new JSON file created and game continues as normal.
-Pass or Fail: Pass.
+	Steps: Delete JSON file and click on load button.
+	Expected result: Error message displayed, but game creates a new save file or continues 	without crashing.
+	Actual result: Correct error message shown, new JSON file created and game continues as 	normal.
+	Pass or Fail: Pass.
 
 Count pieces
 
-Steps: Call count_pieces(board).
-Expected result: Returns correct number of DARK and LIGHT.
-Actual result: Count correctly pieces.
-Pass or Fail:  Pass.
+	Steps: Call count_pieces(board).
+	Expected result: Returns correct number of DARK and LIGHT.
+	Actual result: Count correctly pieces.
+	Pass or Fail:  Pass.
 
 Outflank flip logic
 
-Steps: Make a move that flips multiple directions.
-Expected result: All outflanked pieces flipped.
-Actual result: Pieces flipped correctly.
-Pass or Fail: Pass.
+	Steps: Make a move that flips multiple directions.
+	Expected result: All outflanked pieces flipped.
+	Actual result: Pieces flipped correctly.
+	Pass or Fail: Pass.
 
 10.2 Detailed Information
 
